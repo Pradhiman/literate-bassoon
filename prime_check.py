@@ -1,5 +1,5 @@
 from math import*
-a = 1989
+a = 1
 
 
 def is_prime(a):
