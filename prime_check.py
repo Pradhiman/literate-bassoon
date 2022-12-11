@@ -5,11 +5,11 @@ a = 1
 def is_prime(a):
 
     for i in range(2, floor(sqrt(abs(a))) + 1):
-        if a == 1:
-            return ["number is not prime", 0]
-        elif a % i == 0:
+        if a % i == 0:
             return ["number is not prime", 0]
             break
+    if a == 1:
+        return ["number is not prime", 0]
     return ["number is prime", 1]
 
 
