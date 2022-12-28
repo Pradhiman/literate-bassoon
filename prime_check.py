@@ -1,5 +1,5 @@
 from math import*
-a = 975
+a = 863
 
 
 def is_prime(a):
