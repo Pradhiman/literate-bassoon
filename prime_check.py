@@ -1,5 +1,5 @@
 from math import*
-a = 379
+a = 2023
 
 
 def is_prime(a):
